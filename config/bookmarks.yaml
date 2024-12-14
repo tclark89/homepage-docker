@@ -1,0 +1,47 @@
+---
+# For configuration options and examples, please see:
+# https://github.com/benphelps/homepage/wiki/Bookmarks
+
+- Developer:
+    - Github:
+        - abbr: GH
+          href: https://github.com/
+    - Arch Wiki:
+        - abbr: AW
+          href: https://wiki.archlinux.org
+
+- Social:
+    - Gmail:
+        - abbr: GM
+          href: https://gmail.com
+    - LinkedIn:
+        - abbr: IN
+          href: https://linkedin.com
+    - Reddit:
+        - abbr: RE
+          href: https://reddit.com/
+
+- Entertainment:
+    - Bandcamp:
+        - abbr: BC
+          href: https://bandcamp.com
+    - Spotify:
+        - abbr: SP
+          href: https://open.spotify.com
+    - YouTube:
+        - abbr: YT
+          href: https://youtube.com/
+
+- Other:
+    - Amazon:
+        - abbr: AZ
+          href: https://smile.amazon.com
+    - The MovieDB:
+        - abbr: TMBD
+          href: https://themoviedb.org
+    - The TVDB:
+        - abbr: TVBD
+          href: https://thetvdb.com
+    - USPS:
+        - abbr: US
+          href: https://www.usps.com

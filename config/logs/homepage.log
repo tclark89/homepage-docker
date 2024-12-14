@@ -1,0 +1,2452 @@
+[2022-11-24T01:34:41.680Z] error: bad indentation of a sequence entry (18:5)
+
+ 15 |       icon: nginxproxymanager
+ 16 |       server: my-docker
+ 17 |       container: nginx-proxy-manager
+ 18 |     - Calibre:
+----------^
+ 19 |         href: http://calibre.filese ...
+ 20 |         description: Calibre eBook  ...
+[2022-11-24T01:34:41.695Z] error: Failed to load services.yaml, please check for errors
+[2022-11-24T01:34:41.695Z] error: bad indentation of a sequence entry (18:5)
+
+ 15 |       icon: nginxproxymanager
+ 16 |       server: my-docker
+ 17 |       container: nginx-proxy-manager
+ 18 |     - Calibre:
+----------^
+ 19 |         href: http://calibre.filese ...
+ 20 |         description: Calibre eBook  ...
+[2022-11-24T01:34:42.086Z] error: Failed to load services.yaml, please check for errors
+[2022-11-24T01:34:42.087Z] error: bad indentation of a sequence entry (18:5)
+
+ 15 |       icon: nginxproxymanager
+ 16 |       server: my-docker
+ 17 |       container: nginx-proxy-manager
+ 18 |     - Calibre:
+----------^
+ 19 |         href: http://calibre.filese ...
+ 20 |         description: Calibre eBook  ...
+[2022-11-24T01:34:42.528Z] error: Failed to load services.yaml, please check for errors
+[2022-11-24T01:34:42.529Z] error: bad indentation of a sequence entry (18:5)
+
+ 15 |       icon: nginxproxymanager
+ 16 |       server: my-docker
+ 17 |       container: nginx-proxy-manager
+ 18 |     - Calibre:
+----------^
+ 19 |         href: http://calibre.filese ...
+ 20 |         description: Calibre eBook  ...
+[2022-11-24T01:44:50.155Z] error: undefined
+[2022-11-24T01:44:50.157Z] error: (node:1) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2022-11-24T01:44:56.216Z] error: undefined
+[2022-11-24T01:45:08.424Z] error: (node:1) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2022-11-24T01:45:23.334Z] error: undefined
+[2022-11-24T02:09:12.288Z] error: undefined
+[2022-11-24T02:09:17.784Z] error: undefined
+[2022-11-24T02:09:18.952Z] error: undefined
+[2022-11-24T02:09:24.788Z] error: undefined
+[2022-11-24T02:09:33.713Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2022-11-24T02:09:34.108Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2022-11-24T02:09:44.518Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2022-11-24T02:24:55.806Z] error: undefined
+[2022-11-24T02:24:55.821Z] error: <index> TypeError: Cannot read properties of null (reading '0')
+    at /app/.next/server/pages/index.js:1266:40
+    at Array.map (<anonymous>)
+    at /app/.next/server/pages/index.js:1264:45
+    at Array.map (<anonymous>)
+    at bookmarksResponse (/app/.next/server/pages/index.js:1262:36)
+    at async getStaticProps (/app/.next/server/pages/index.js:973:23)
+    at async Object.renderToHTML (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/render.js:386:20)
+    at async doRender (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/base-server.js:669:38)
+    at async cacheEntry.responseCache.get.isManualRevalidate.isManualRevalidate (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/base-server.js:778:28)
+    at async /app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/response-cache/index.js:80:36
+[2022-11-24T02:24:56.105Z] error: undefined
+[2022-11-24T02:25:01.790Z] error: undefined
+[2022-11-24T02:25:07.525Z] error: undefined
+[2022-11-24T02:25:09.657Z] error: <index> TypeError: Cannot read properties of null (reading '0')
+    at /app/.next/server/pages/index.js:1266:40
+    at Array.map (<anonymous>)
+    at /app/.next/server/pages/index.js:1264:45
+    at Array.map (<anonymous>)
+    at bookmarksResponse (/app/.next/server/pages/index.js:1262:36)
+    at async getStaticProps (/app/.next/server/pages/index.js:973:23)
+    at async Object.renderToHTML (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/render.js:386:20)
+    at async doRender (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/base-server.js:669:38)
+    at async cacheEntry.responseCache.get.isManualRevalidate.isManualRevalidate (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/base-server.js:778:28)
+    at async /app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/response-cache/index.js:80:36
+[2022-11-24T02:25:09.965Z] error: undefined
+[2022-11-24T02:25:20.787Z] error: undefined
+[2022-11-24T02:25:24.389Z] error: undefined
+[2022-11-24T02:25:34.412Z] error: undefined
+[2022-11-24T02:25:44.797Z] error: undefined
+[2022-11-24T02:25:45.494Z] error: undefined
+[2022-11-24T02:25:47.125Z] error: <index> TypeError: Cannot read properties of null (reading '0')
+    at /app/.next/server/pages/index.js:1266:40
+    at Array.map (<anonymous>)
+    at /app/.next/server/pages/index.js:1264:45
+    at Array.map (<anonymous>)
+    at bookmarksResponse (/app/.next/server/pages/index.js:1262:36)
+    at async getStaticProps (/app/.next/server/pages/index.js:973:23)
+    at async Object.renderToHTML (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/render.js:386:20)
+    at async doRender (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/base-server.js:669:38)
+    at async cacheEntry.responseCache.get.isManualRevalidate.isManualRevalidate (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/base-server.js:778:28)
+    at async /app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/response-cache/index.js:80:36
+[2022-11-24T02:25:47.421Z] error: undefined
+[2022-11-24T02:25:52.789Z] error: undefined
+[2022-11-24T02:25:59.294Z] error: undefined
+[2022-11-24T02:25:59.482Z] error: <index> TypeError: Cannot read properties of null (reading '0')
+    at /app/.next/server/pages/index.js:1266:40
+    at Array.map (<anonymous>)
+    at /app/.next/server/pages/index.js:1264:45
+    at Array.map (<anonymous>)
+    at bookmarksResponse (/app/.next/server/pages/index.js:1262:36)
+    at async getStaticProps (/app/.next/server/pages/index.js:973:23)
+    at async Object.renderToHTML (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/render.js:386:20)
+    at async doRender (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/base-server.js:669:38)
+    at async cacheEntry.responseCache.get.isManualRevalidate.isManualRevalidate (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/base-server.js:778:28)
+    at async /app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/response-cache/index.js:80:36
+[2022-11-24T02:25:59.770Z] error: undefined
+[2022-11-24T02:26:05.785Z] error: undefined
+[2022-11-28T12:02:04.363Z] error: undefined
+[2022-11-28T12:02:04.421Z] error: undefined
+[2022-11-28T12:03:38.921Z] error: undefined
+[2022-11-28T12:03:38.978Z] error: undefined
+[2022-11-28T12:03:51.974Z] error: undefined
+[2022-11-28T12:03:51.987Z] error: undefined
+[2022-11-28T12:04:16.684Z] error: undefined
+[2022-11-28T12:04:16.862Z] error: <index> TypeError: Cannot read properties of null (reading '0')
+    at /app/.next/server/pages/index.js:1845:40
+    at Array.map (<anonymous>)
+    at /app/.next/server/pages/index.js:1843:45
+    at Array.map (<anonymous>)
+    at bookmarksResponse (/app/.next/server/pages/index.js:1841:36)
+    at async getStaticProps (/app/.next/server/pages/index.js:1497:23)
+    at async Object.renderToHTML (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/render.js:386:20)
+    at async doRender (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/base-server.js:669:38)
+    at async cacheEntry.responseCache.get.isManualRevalidate.isManualRevalidate (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/base-server.js:778:28)
+    at async /app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/response-cache/index.js:80:36
+[2022-11-28T12:04:17.167Z] error: undefined
+[2022-12-04T13:33:24.417Z] error: <httpProxy> Error calling fileserver.lan://8443...
+[2022-12-04T13:33:24.422Z] error: <httpProxy> AssertionError [ERR_ASSERTION]: protocol mismatch
+    at Object.request (/app/node_modules/.pnpm/follow-redirects@1.15.2/node_modules/follow-redirects/index.js:521:14)
+    at /app/.next/server/chunks/6629.js:211:31
+    at new Promise (<anonymous>)
+    at handleRequest (/app/.next/server/chunks/6629.js:203:10)
+    at httpRequest (/app/.next/server/chunks/6629.js:237:10)
+    at httpProxy (/app/.next/server/chunks/6629.js:251:15)
+    at unifiProxyHandler (/app/.next/server/pages/api/services/proxy.js:2905:127)
+    at async Object.apiResolver (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/api-utils/node.js:366:9)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/next-server.js:735:37)
+[2022-12-04T13:33:24.424Z] error: <httpProxy> Error calling fileserver.lan://8443/api/stat/sites...
+[2022-12-04T13:33:24.425Z] error: <httpProxy> AssertionError [ERR_ASSERTION]: protocol mismatch
+    at Object.request (/app/node_modules/.pnpm/follow-redirects@1.15.2/node_modules/follow-redirects/index.js:521:14)
+    at /app/.next/server/chunks/6629.js:211:31
+    at new Promise (<anonymous>)
+    at handleRequest (/app/.next/server/chunks/6629.js:203:10)
+    at httpRequest (/app/.next/server/chunks/6629.js:237:10)
+    at httpProxy (/app/.next/server/chunks/6629.js:251:15)
+    at unifiProxyHandler (/app/.next/server/pages/api/services/proxy.js:2927:125)
+    at async Object.apiResolver (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/api-utils/node.js:366:9)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/next-server.js:735:37)
+[2022-12-04T13:33:24.427Z] error: <unifiProxyHandler> HTTP 500 getting data from Unifi endpoint fileserver.lan:8443/api/stat/sites. Data: { error: [Object] }
+[2022-12-04T13:33:24.941Z] error: <httpProxy> Error calling fileserver.lan://8443/api/stat/sites...
+[2022-12-04T13:33:24.943Z] error: <httpProxy> AssertionError [ERR_ASSERTION]: protocol mismatch
+    at Object.request (/app/node_modules/.pnpm/follow-redirects@1.15.2/node_modules/follow-redirects/index.js:521:14)
+    at /app/.next/server/chunks/6629.js:211:31
+    at new Promise (<anonymous>)
+    at handleRequest (/app/.next/server/chunks/6629.js:203:10)
+    at httpRequest (/app/.next/server/chunks/6629.js:237:10)
+    at httpProxy (/app/.next/server/chunks/6629.js:251:15)
+    at unifiProxyHandler (/app/.next/server/pages/api/services/proxy.js:2927:125)
+    at async Object.apiResolver (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/api-utils/node.js:366:9)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/next-server.js:735:37)
+[2022-12-04T13:33:24.944Z] error: <unifiProxyHandler> HTTP 500 getting data from Unifi endpoint fileserver.lan:8443/api/stat/sites. Data: { error: [Object] }
+[2022-12-04T13:33:30.435Z] error: <httpProxy> Error calling fileserver.lan://8443/api/stat/sites...
+[2022-12-04T13:33:30.436Z] error: <httpProxy> AssertionError [ERR_ASSERTION]: protocol mismatch
+    at Object.request (/app/node_modules/.pnpm/follow-redirects@1.15.2/node_modules/follow-redirects/index.js:521:14)
+    at /app/.next/server/chunks/6629.js:211:31
+    at new Promise (<anonymous>)
+    at handleRequest (/app/.next/server/chunks/6629.js:203:10)
+    at httpRequest (/app/.next/server/chunks/6629.js:237:10)
+    at httpProxy (/app/.next/server/chunks/6629.js:251:15)
+    at unifiProxyHandler (/app/.next/server/pages/api/services/proxy.js:2927:125)
+    at async Object.apiResolver (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/api-utils/node.js:366:9)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/next-server.js:735:37)
+[2022-12-04T13:33:30.437Z] error: <unifiProxyHandler> HTTP 500 getting data from Unifi endpoint fileserver.lan:8443/api/stat/sites. Data: { error: [Object] }
+[2022-12-04T13:33:49.237Z] error: <unifiProxyHandler> HTTP 400 getting data from Unifi endpoint http://fileserver.lan:8443/api/stat/sites. Data: Bad Request
+This combination of host and port requires TLS.
+
+[2022-12-04T13:33:49.850Z] error: <unifiProxyHandler> HTTP 400 getting data from Unifi endpoint http://fileserver.lan:8443/api/stat/sites. Data: Bad Request
+This combination of host and port requires TLS.
+
+[2022-12-04T13:34:09.125Z] error: <httpProxy> Error calling http://fileserver.lan/api/stat/sites...
+[2022-12-04T13:34:09.127Z] error: <httpProxy> [
+  500,
+  Error: self-signed certificate
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1538:34)
+      at TLSSocket.emit (node:events:513:28)
+      at TLSSocket._finishInit (node:_tls_wrap:952:8)
+      at ssl.onhandshakedone (node:_tls_wrap:733:12) {
+    code: 'DEPTH_ZERO_SELF_SIGNED_CERT'
+  }
+]
+[2022-12-04T13:34:09.127Z] error: <unifiProxyHandler> HTTP 500 getting data from Unifi endpoint http://fileserver.lan:8080/api/stat/sites. Data: { error: [Object] }
+[2022-12-04T13:34:09.815Z] error: <httpProxy> Error calling http://fileserver.lan/api/stat/sites...
+[2022-12-04T13:34:09.816Z] error: <httpProxy> [
+  500,
+  Error: self-signed certificate
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1538:34)
+      at TLSSocket.emit (node:events:513:28)
+      at TLSSocket._finishInit (node:_tls_wrap:952:8)
+      at ssl.onhandshakedone (node:_tls_wrap:733:12) {
+    code: 'DEPTH_ZERO_SELF_SIGNED_CERT'
+  }
+]
+[2022-12-04T13:34:09.816Z] error: <unifiProxyHandler> HTTP 500 getting data from Unifi endpoint http://fileserver.lan:8080/api/stat/sites. Data: { error: [Object] }
+[2022-12-04T13:34:22.709Z] error: <unifiProxyHandler> HTTP 400 getting data from Unifi endpoint http://fileserver.lan:8443/api/stat/sites. Data: Bad Request
+This combination of host and port requires TLS.
+
+[2022-12-04T13:34:23.404Z] error: <unifiProxyHandler> HTTP 400 getting data from Unifi endpoint http://fileserver.lan:8443/api/stat/sites. Data: Bad Request
+This combination of host and port requires TLS.
+
+[2022-12-04T13:34:34.607Z] error: <unifiProxyHandler> HTTP 400 getting data from Unifi endpoint http://fileserver.lan:8443/api/stat/sites. Data: Bad Request
+This combination of host and port requires TLS.
+
+[2023-01-21T19:57:28.872Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T19:57:28.879Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T19:57:28.883Z] error: <httpProxy> Error calling http://transmission.fileserver.lan/transmission/rpc...
+[2023-01-21T19:57:28.885Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.lan'
+  }
+]
+[2023-01-21T19:57:28.888Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T19:57:38.625Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T19:57:38.625Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T19:57:38.631Z] error: <httpProxy> Error calling http://transmission.fileserver.lan/transmission/rpc...
+[2023-01-21T19:57:38.632Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.lan'
+  }
+]
+[2023-01-21T19:57:38.633Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T19:57:43.535Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T19:57:43.536Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T19:57:43.587Z] error: <httpProxy> Error calling http://transmission.fileserver.lan/transmission/rpc...
+[2023-01-21T19:57:43.589Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.lan'
+  }
+]
+[2023-01-21T19:57:43.590Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:01:06.328Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:01:06.328Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:01:06.332Z] error: <httpProxy> Error calling http://transmission.fileserver.lan/transmission/rpc...
+[2023-01-21T20:01:06.333Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.lan'
+  }
+]
+[2023-01-21T20:01:06.333Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:01:23.730Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:01:23.731Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:01:23.732Z] error: <httpProxy> Error calling http://transmission.fileserver.lan/transmission/rpc...
+[2023-01-21T20:01:23.733Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.lan'
+  }
+]
+[2023-01-21T20:01:23.734Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:02:50.691Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:02:50.692Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:02:50.711Z] error: <httpProxy> Error calling http://transmission.fileserver.lan/transmission/rpc...
+[2023-01-21T20:02:50.712Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.lan'
+  }
+]
+[2023-01-21T20:02:50.713Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:03:32.219Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:03:32.219Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:03:32.226Z] error: <httpProxy> Error calling http://transmission.fileserver.lan/transmission/rpc...
+[2023-01-21T20:03:32.226Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.lan'
+  }
+]
+[2023-01-21T20:03:32.227Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:03:34.010Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:03:34.010Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:03:34.025Z] error: <httpProxy> Error calling http://transmission.fileserver.lan/transmission/rpc...
+[2023-01-21T20:03:34.026Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.lan'
+  }
+]
+[2023-01-21T20:03:34.026Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:03:35.406Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:03:35.407Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:03:35.413Z] error: <httpProxy> Error calling http://transmission.fileserver.lan/transmission/rpc...
+[2023-01-21T20:03:35.413Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.lan'
+  }
+]
+[2023-01-21T20:03:35.414Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:03:36.196Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:03:36.196Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:03:36.201Z] error: <httpProxy> Error calling http://transmission.fileserver.lan/transmission/rpc...
+[2023-01-21T20:03:36.201Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.lan'
+  }
+]
+[2023-01-21T20:03:36.201Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:03:40.428Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:03:40.428Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:03:40.450Z] error: <httpProxy> Error calling http://transmission.fileserver.lan/transmission/rpc...
+[2023-01-21T20:03:40.451Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.lan'
+  }
+]
+[2023-01-21T20:03:40.451Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:42:50.083Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:42:50.084Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:42:50.091Z] error: <httpProxy> Error calling http://transmission.fileserver.lan/transmission/rpc...
+[2023-01-21T20:42:50.091Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.lan'
+  }
+]
+[2023-01-21T20:42:50.092Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:43:48.598Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:43:48.599Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:43:48.627Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T20:43:48.628Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T20:43:48.628Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:43:50.145Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:43:50.145Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:43:50.148Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T20:43:50.148Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T20:43:50.148Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:43:55.776Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:43:55.777Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:43:55.825Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T20:43:55.826Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T20:43:55.826Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:44:01.862Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:44:01.862Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:44:01.882Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T20:44:01.883Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T20:44:01.883Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:44:11.129Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T20:44:11.130Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T20:44:11.130Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:44:11.131Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:44:11.131Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:44:17.128Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T20:44:17.128Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T20:44:17.128Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:44:17.138Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:44:17.139Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:53:12.159Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:53:12.159Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:53:12.161Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T20:53:12.161Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T20:53:12.161Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:53:54.722Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:53:54.723Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:53:54.725Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T20:53:54.726Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T20:53:54.726Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:54:04.153Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:54:04.153Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:54:04.156Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T20:54:04.156Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T20:54:04.156Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:58:07.926Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T20:58:07.927Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T20:58:07.927Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:58:07.999Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:58:08.000Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:58:15.271Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:58:15.272Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:58:15.274Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T20:58:15.274Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T20:58:15.274Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:58:27.320Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:58:27.320Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:58:27.325Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T20:58:27.325Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T20:58:27.325Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:58:39.034Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T20:58:39.034Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T20:58:39.035Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:58:39.097Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:58:39.098Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:59:00.955Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:59:00.955Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:59:00.956Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T20:59:00.956Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T20:59:00.957Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:59:06.545Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:59:06.546Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:59:06.551Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T20:59:06.551Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T20:59:06.551Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:59:18.536Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:59:18.539Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:59:18.541Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T20:59:18.542Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T20:59:18.542Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:59:21.619Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:59:21.619Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:59:21.622Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T20:59:21.622Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T20:59:21.623Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:59:31.957Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:59:31.957Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:59:31.959Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T20:59:31.959Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T20:59:31.959Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:59:37.964Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T20:59:37.965Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T20:59:37.965Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T20:59:37.966Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:59:37.967Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:59:48.260Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T20:59:48.260Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T20:59:48.269Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T20:59:48.269Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T20:59:48.269Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T21:00:07.807Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:00:07.808Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:00:07.820Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T21:00:07.820Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T21:00:07.820Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T21:00:29.430Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:00:29.430Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:00:29.437Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T21:00:29.438Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T21:00:29.438Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T21:00:59.396Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:00:59.396Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:00:59.399Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T21:00:59.399Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T21:00:59.399Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T21:01:13.825Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:01:13.826Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:01:13.829Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T21:01:13.829Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T21:01:13.829Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T21:03:05.042Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:03:05.043Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:03:05.081Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T21:03:05.081Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T21:03:05.082Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T21:03:11.201Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:03:11.202Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:03:11.316Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T21:03:11.316Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T21:03:11.317Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T21:04:47.781Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:04:47.782Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:04:47.785Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T21:04:47.786Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T21:04:47.786Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T21:04:54.288Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:04:54.288Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:04:54.289Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T21:04:54.289Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T21:04:54.289Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T21:05:01.364Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T21:05:01.365Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T21:05:01.366Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T21:05:01.368Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:05:01.368Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:05:07.099Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:05:07.100Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:05:07.126Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T21:05:07.126Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T21:05:07.126Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T21:05:17.811Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:05:17.811Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:05:17.815Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T21:05:17.815Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T21:05:17.815Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T21:05:27.012Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:05:27.012Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:05:27.023Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T21:05:27.023Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T21:05:27.024Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T21:05:28.478Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:05:28.478Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:05:28.479Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T21:05:28.479Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T21:05:28.479Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T21:05:32.109Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:05:32.109Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:05:32.114Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T21:05:32.115Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T21:05:32.115Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T21:07:40.926Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T21:07:40.927Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T21:07:40.927Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T21:07:40.930Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:07:40.931Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:10:43.080Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:10:43.081Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:10:43.085Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-21T21:10:43.085Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-21T21:10:43.085Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-21T21:11:00.537Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:11:00.538Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:11:05.621Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:11:05.621Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:11:12.583Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:11:12.584Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:12:15.208Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:12:15.208Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:12:42.829Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:12:42.830Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:20:14.113Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:20:14.113Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:20:16.018Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:20:16.018Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:20:20.159Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:20:20.159Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:20:36.706Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:20:36.707Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-21T21:20:56.705Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-21T21:20:56.705Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-22T01:07:49.402Z] error: <httpProxy> Error calling http://pi.hole/admin/api.php...
+[2023-01-22T01:07:49.402Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND pi.hole
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'pi.hole'
+  }
+]
+[2023-01-22T13:55:27.677Z] error: <service-helpers> Error: ENOENT: no such file or directory, open '/app/config/kubernetes.yaml'
+    at Object.openSync (node:fs:600:3)
+    at readFileSync (node:fs:468:35)
+    at getKubeConfig (/app/.next/server/chunks/5617.js:31:70)
+    at servicesFromKubernetes (/app/.next/server/chunks/5617.js:220:92)
+    at servicesResponse (/app/.next/server/chunks/8317.js:85:227)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async handler (/app/.next/server/pages/api/services.js:77:12)
+    at async Object.apiResolver (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/api-utils/node.js:366:9)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.1_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/server/next-server.js:735:37)
+[2023-01-22T13:55:27.678Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2023-01-22T13:55:27.678Z] error: Error: ENOENT: no such file or directory, open '/app/config/kubernetes.yaml'
+[2023-01-22T13:55:27.680Z] info: kubernetes.yaml was copied to the config folder
+[2023-01-22T13:55:27.681Z] info: kubernetes.yaml was copied to the config folder
+[2023-01-22T14:54:56.457Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-22T14:54:56.460Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-22T14:54:56.461Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T14:55:02.583Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-22T14:55:02.583Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-22T14:55:02.584Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T14:55:07.761Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-22T14:55:07.762Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-22T14:55:07.762Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T14:55:14.575Z] error: <httpProxy> Error calling http://transmission.fileserver.localdomain/transmission/rpc...
+[2023-01-22T14:55:14.575Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.fileserver.localdomain
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.fileserver.localdomain'
+  }
+]
+[2023-01-22T14:55:14.575Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T14:55:50.134Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T14:55:50.135Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T14:55:50.135Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T14:55:50.755Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T14:55:50.755Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T14:55:50.755Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T14:55:54.411Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T14:55:54.411Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T14:55:54.412Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T14:56:25.803Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T14:56:25.803Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T14:56:25.804Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T14:56:31.272Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T14:56:31.272Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T14:56:31.273Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T14:56:39.869Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T14:56:39.870Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T14:56:39.870Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T14:56:48.120Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T14:56:48.121Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T14:56:48.121Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T14:56:55.362Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T14:56:55.362Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T14:56:55.363Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T14:57:04.610Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T14:57:04.610Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T14:57:04.610Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T14:59:18.667Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T14:59:18.668Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T14:59:18.668Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T14:59:59.004Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T14:59:59.005Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T14:59:59.005Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T15:00:04.920Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T15:00:04.920Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T15:00:04.920Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T15:02:37.905Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T15:02:37.905Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T15:02:37.905Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T15:02:45.087Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T15:02:45.088Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T15:02:45.088Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T15:06:09.906Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T15:06:09.906Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T15:06:09.907Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T15:06:12.158Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T15:06:12.158Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T15:06:12.159Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T15:06:15.947Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T15:06:15.948Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T15:06:15.948Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T15:09:19.677Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T15:09:19.677Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T15:09:19.677Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T15:09:24.771Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T15:09:24.771Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T15:09:24.771Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T15:12:06.352Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T15:12:06.352Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T15:12:06.353Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T15:13:43.768Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T15:13:43.768Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T15:13:43.768Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T15:14:31.977Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T15:14:31.977Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T15:14:31.977Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T15:14:40.178Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-01-22T15:14:40.178Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-01-22T15:14:40.178Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-01-22T15:25:49.369Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+
+[2023-01-30T12:31:09.750Z] error: bad indentation of a mapping entry (29:20)
+
+ 26 | 
+ 27 |   - Cockpit:
+ 28 |     href: http://fileserver.localdomain.lan:9090
+ 29 |         description: Cockpit server management suite
+-------------------------^
+ 30 |         icon: cockpit
+ 31 | 
+[2023-01-30T12:31:09.786Z] error: Failed to load services.yaml, please check for errors
+[2023-01-30T12:31:09.786Z] error: YAMLException: bad indentation of a mapping entry (29:20)
+
+ 26 | 
+ 27 |   - Cockpit:
+ 28 |     href: http://fileserver.localdomain.lan:9090
+ 29 |         description: Cockpit server management suite
+-------------------------^
+ 30 |         icon: cockpit
+ 31 | 
+[2023-01-30T12:31:10.032Z] error: Failed to load services.yaml, please check for errors
+[2023-01-30T12:31:10.034Z] error: YAMLException: bad indentation of a mapping entry (29:20)
+
+ 26 | 
+ 27 |   - Cockpit:
+ 28 |     href: http://fileserver.localdomain.lan:9090
+ 29 |         description: Cockpit server management suite
+-------------------------^
+ 30 |         icon: cockpit
+ 31 | 
+[2023-01-30T12:31:10.633Z] error: Failed to load services.yaml, please check for errors
+[2023-01-30T12:31:10.633Z] error: YAMLException: bad indentation of a mapping entry (29:20)
+
+ 26 | 
+ 27 |   - Cockpit:
+ 28 |     href: http://fileserver.localdomain.lan:9090
+ 29 |         description: Cockpit server management suite
+-------------------------^
+ 30 |         icon: cockpit
+ 31 | 
+[2023-03-11T15:40:43.493Z] error: bad indentation of a mapping entry (15:20)
+
+ 12 | 
+ 13 |   - Rstudio Server (VM):
+ 14 |     href: http://fileserver.localdomain.lan:8787
+ 15 |         description: Rstudio Server in nspawn cont ...
+-------------------------^
+ 16 |         icon: rstudioserver
+ 17 |   
+[2023-03-11T15:40:43.522Z] error: Failed to load services.yaml, please check for errors
+[2023-03-11T15:40:43.522Z] error: YAMLException: bad indentation of a mapping entry (15:20)
+
+ 12 | 
+ 13 |   - Rstudio Server (VM):
+ 14 |     href: http://fileserver.localdomain.lan:8787
+ 15 |         description: Rstudio Server in nspawn cont ...
+-------------------------^
+ 16 |         icon: rstudioserver
+ 17 |   
+[2023-03-11T15:40:43.622Z] error: Failed to load services.yaml, please check for errors
+[2023-03-11T15:40:43.623Z] error: YAMLException: bad indentation of a mapping entry (15:20)
+
+ 12 | 
+ 13 |   - Rstudio Server (VM):
+ 14 |     href: http://fileserver.localdomain.lan:8787
+ 15 |         description: Rstudio Server in nspawn cont ...
+-------------------------^
+ 16 |         icon: rstudioserver
+ 17 |   
+[2023-03-11T15:40:44.007Z] error: Failed to load services.yaml, please check for errors
+[2023-03-11T15:40:44.007Z] error: YAMLException: bad indentation of a mapping entry (15:20)
+
+ 12 | 
+ 13 |   - Rstudio Server (VM):
+ 14 |     href: http://fileserver.localdomain.lan:8787
+ 15 |         description: Rstudio Server in nspawn cont ...
+-------------------------^
+ 16 |         icon: rstudioserver
+ 17 |   
+[2023-05-06T21:36:16.555Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-05-06T21:36:16.557Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-05-06T21:36:16.558Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-05-06T21:36:16.579Z] error: undefined
+[2023-05-06T21:36:24.769Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-05-06T21:36:24.771Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-05-06T21:36:24.772Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-05-06T21:36:24.791Z] error: undefined
+[2023-05-06T21:36:35.910Z] error: undefined
+[2023-05-06T21:36:35.955Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-05-06T21:36:35.956Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-05-06T21:36:35.956Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-05-06T21:37:34.665Z] error: undefined
+[2023-05-06T21:37:34.757Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-05-06T21:37:34.759Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-05-06T21:37:34.760Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-05-06T21:40:02.622Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-05-06T21:40:02.624Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-05-06T21:40:02.624Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-05-06T21:40:23.179Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-05-06T21:40:23.180Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-05-06T21:40:23.181Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-05-20T01:48:39.952Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-05-20T01:48:39.953Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-05-20T01:48:39.954Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-05-20T01:48:40.945Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-05-20T01:48:40.947Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-05-20T01:48:40.949Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-05-20T01:48:51.424Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-05-20T01:48:51.426Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-05-20T01:48:51.428Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-05-20T01:55:58.358Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-05-20T01:55:58.360Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-05-20T01:55:58.361Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-05-20T01:56:06.345Z] error: <httpProxy> Error calling http://transmission.localdomain.lan/transmission/rpc...
+[2023-05-20T01:56:06.345Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN transmission.localdomain.lan
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'transmission.localdomain.lan'
+  }
+]
+[2023-05-20T01:56:06.346Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2023-08-16T11:20:05.369Z] error: undefined
+[2023-08-16T11:20:06.525Z] error: undefined
+[2023-08-16T11:20:16.585Z] error: undefined
+[2024-03-22T11:24:00.044Z] info: custom.css was copied to the config folder
+[2024-03-22T11:24:00.046Z] info: custom.js was copied to the config folder
+[2024-03-22T11:24:01.544Z] error: <transmissionProxyHandler> Error getting data from Transmission: 502.  Data: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+
+[2024-03-22T11:25:12.700Z] error: <transmissionProxyHandler> Error getting data from Transmission: 502.  Data: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+
+[2024-03-22T11:36:48.477Z] error: <transmissionProxyHandler> Error getting data from Transmission: 502.  Data: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+
+[2024-04-23T00:05:12.602Z] error: <transmissionProxyHandler> Error getting data from Transmission: 502.  Data: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+
+[2024-04-23T00:05:28.006Z] error: <transmissionProxyHandler> Error getting data from Transmission: 502.  Data: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+
+[2024-04-23T00:05:35.655Z] error: <transmissionProxyHandler> Error getting data from Transmission: 502.  Data: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+
+[2024-04-23T00:06:13.269Z] error: <transmissionProxyHandler> Error getting data from Transmission: 502.  Data: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+
+[2024-04-23T00:06:13.858Z] error: <transmissionProxyHandler> Error getting data from Transmission: 502.  Data: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+
+[2024-04-23T00:06:49.137Z] error: <transmissionProxyHandler> Error getting data from Transmission: 502.  Data: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+
+[2024-04-23T00:06:57.228Z] error: <transmissionProxyHandler> Error getting data from Transmission: 502.  Data: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+
+[2024-04-23T00:07:32.035Z] error: <transmissionProxyHandler> Error getting data from Transmission: 502.  Data: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+
+[2024-04-23T00:07:42.832Z] error: <transmissionProxyHandler> Error getting data from Transmission: 502.  Data: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+
+[2024-04-23T00:23:17.754Z] error: <transmissionProxyHandler> Error getting data from Transmission: 502.  Data: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+
+[2024-04-23T00:23:18.969Z] error: <transmissionProxyHandler> Error getting data from Transmission: 502.  Data: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+
+[2024-04-23T00:24:05.016Z] error: <transmissionProxyHandler> Error getting data from Transmission: 502.  Data: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+
+[2024-04-23T00:24:10.738Z] error: <transmissionProxyHandler> Error getting data from Transmission: 502.  Data: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+
+[2024-11-16T21:59:59.936Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:01:15.614Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:01:20.800Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:03:21.790Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:05:07.677Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:07:30.094Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:08:08.956Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:08:42.533Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:16:38.351Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:16:45.584Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:17:16.345Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:17:24.020Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:23:21.878Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:23:28.836Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:33:19.791Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:35:59.352Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:36:18.332Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:36:24.282Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:38:14.738Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:38:53.391Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:40:08.938Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:40:14.390Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:40:42.427Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:40:44.500Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T22:43:49.835Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T23:08:40.627Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T23:08:50.602Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T23:10:25.006Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T23:10:30.634Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T23:11:05.236Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T23:11:20.065Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T23:11:40.351Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T23:11:51.753Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T23:17:56.453Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T23:21:39.310Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T23:22:28.170Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T23:22:34.492Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-11-16T23:22:53.668Z] error: <transmissionProxyHandler> Error getting data from Transmission: 404.  Data: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+
+[2024-12-11T12:23:41.213Z] error: <transmissionProxyHandler> Error getting data from Transmission: 502.  Data: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.26.2</center>
+</body>
+</html>
+

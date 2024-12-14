@@ -1,0 +1,15 @@
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+      #image: ghcr.io/benphelps/homepage:latest
+    container_name: homepage
+    volumes:
+      - ./config:/app/config 
+      - /var/run/docker.sock:/var/run/docker.sock
+        #- ./icons:/app/public/icons
+    restart: unless-stopped
+
+networks:
+  default:
+    external: true
+    name: homepage

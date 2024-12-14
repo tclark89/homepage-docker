@@ -1,0 +1,112 @@
+---
+# For configuration options and examples, please see:
+# https://github.com/benphelps/homepage/wiki/Services
+
+- Tools:
+
+  #- Rstudio Server:
+  #      href: http://rstudio.localdomain.lan
+  #      description: Rstudio Server in nspawn container
+  #      icon: rstudioserver
+  
+  - Nextcloud:
+      href: http://nextcloud.localdomain.lan
+      description: Nextcloud
+      icon: nextcloud
+      server: my-docker
+      container: nextcloud-app
+
+  - Nginx Proxy Manager:
+      href: http://fileserver.localdomain.lan:81
+      description: Nginx Proxy Manager admin page
+      icon: nginx-proxy-manager
+      server: my-docker
+      container: nginx-proxy-manager
+
+  - Nginx:
+      description: Nginx 
+      icon: nginx
+      server: my-docker
+      container: nginx
+  
+  - Calibre:
+        href: http://calibre.localdomain.lan
+        description: Calibre eBook library management
+        server: my-docker
+        container: calibre
+        icon: calibre
+  
+  - Portainer:
+        href: https://fileserver.localdomain.lan:9443
+        description: Portainer CE
+        server: my-docker
+        container: portainer
+        icon: portainer
+
+
+- Multimedia:
+    - Plex Media Server:
+        href: http://plex.localdomain.lan
+        description: Plex Media Server running on.localdomain.lan
+        server: my-docker
+        container: plex
+        icon: plex
+
+    - Calibre Web:
+        href: http://calibre-web.localdomain.lan
+        description: Calibre-web library browser
+        server: my-docker
+        container: calibre-web
+        icon: calibre-web
+    - Radarr:
+        href: http://radarr.localdomain.lan
+        description: Radarr
+        server: my-docker
+        container: radarr
+        icon: radarr
+    - Sonarr:
+        href: http://sonarr.localdomain.lan
+        description: Sonarr
+        server: my-docker
+        container: sonarr
+        icon: sonarr
+    - Tdarr:
+        href: http://tdarr.localdomain.lan
+        description: Tdarr transcode utility
+        server: my-docker
+        container: tdarr
+        icon: tdarr
+
+
+- Network:
+  - EdgeRouter:
+      icon: edgeos
+      href: https://192.168.0.1
+      description: Ubiquiti EdgeRouter Login
+
+  - Pihole:
+      icon: pi-hole
+      href: http://pihole.localdomain.lan/admin
+      description: Pihole ad blocker
+        #server: my-docker
+        #container: pihole
+
+
+  - UniFi Controller:
+      href: https://fileserver.localdomain.lan:8443
+      description: UniFi Controller software
+      server: my-docker
+      container: unifi-network-application
+      icon: unifi-controller
+  
+  - Transmission:
+      icon: transmission
+      href: http://transmission.localdomain.lan
+      description: Transmission BitTorrent client
+      server: my-docker
+      container: transmission
+      widget: 
+        type: transmission
+        url: http://transmission.localdomain.lan
+        fields: ["leech", "download", "seed", "upload"]  
+
