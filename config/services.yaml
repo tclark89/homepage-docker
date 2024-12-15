@@ -16,12 +16,12 @@
       server: my-docker
       container: nextcloud-app
 
-  - Nginx Proxy Manager:
-      href: http://fileserver.localdomain.lan:81
-      description: Nginx Proxy Manager admin page
-      icon: nginx-proxy-manager
-      server: my-docker
-      container: nginx-proxy-manager
+        #- Nginx Proxy Manager:
+        #href: http://fileserver.localdomain.lan:81
+        #description: Nginx Proxy Manager admin page
+        #icon: nginx-proxy-manager
+        #server: my-docker
+        #container: nginx-proxy-manager
 
   - Nginx:
       description: Nginx 
