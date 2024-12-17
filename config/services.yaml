@@ -76,6 +76,9 @@
         server: my-docker
         container: tdarr
         icon: tdarr
+        widget:
+          type: tdarr
+          url: http://tdarr.localdomain.lan
 
 
 - Network:
