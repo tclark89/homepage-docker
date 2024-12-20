@@ -53,7 +53,7 @@
 - Multimedia:
     - Plex Media Server:
         href: http://plex.localdomain.lan
-        description: Plex Media Server running on.localdomain.lan
+        description: Plex Media Server
         server: my-docker
         container: plex
         icon: plex
