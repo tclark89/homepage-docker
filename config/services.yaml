@@ -42,6 +42,12 @@
         server: my-docker
         container: portainer
         icon: portainer
+  - Mealie:
+      href: http://mealie.localdomain.lan
+      description: Database of recipes
+      server: my-docker
+      container: mealie
+      icon: mealie
 
 
 - Multimedia:
