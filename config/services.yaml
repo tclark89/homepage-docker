@@ -13,7 +13,7 @@
       href: http://nextcloud.localdomain.lan
       description: Nextcloud
       icon: nextcloud
-      server: my-docker
+      server: my-local-docker
       container: nextcloud-app
       widget:
         type: nextcloud
@@ -24,32 +24,32 @@
         #href: http://fileserver.localdomain.lan:81
         #description: Nginx Proxy Manager admin page
         #icon: nginx-proxy-manager
-        #server: my-docker
+        #server: my-local-docker
         #container: nginx-proxy-manager
 
   - Nginx:
       description: Nginx 
       icon: nginx
-      server: my-docker
+      server: my-local-docker
       container: nginx
   
   - Calibre:
         href: http://calibre.localdomain.lan
         description: Calibre eBook library management
-        server: my-docker
+        server: my-local-docker
         container: calibre
         icon: calibre
   
   - Portainer:
         href: https://fileserver.localdomain.lan:9443
         description: Portainer CE
-        server: my-docker
+        server: my-local-docker
         container: portainer
         icon: portainer
   - Mealie:
       href: http://mealie.localdomain.lan
       description: Database of recipes
-      server: my-docker
+      server: my-local-docker
       container: mealie
       icon: mealie
       widget:
@@ -62,7 +62,7 @@
   - Tautulli:
       href: http://tautulli.localdomain.lan
       description: Plex stats
-      server: my-docker
+      server: my-local-docker
       container: tautulli
       icon: tautulli
       widget:
@@ -74,14 +74,14 @@
     - Plex Media Server:
         href: http://plex.localdomain.lan
         description: Plex Media Server
-        server: my-docker
+        server: my-local-docker
         container: plex
         icon: plex
 
     - Calibre Web:
         href: http://calibre-web.localdomain.lan
         description: Calibre-web library browser
-        server: my-docker
+        server: my-local-docker
         container: calibre-web
         icon: calibre-web
         widget:
@@ -92,19 +92,19 @@
     - Radarr:
         href: http://radarr.localdomain.lan
         description: Radarr
-        server: my-docker
+        server: my-local-docker
         container: radarr
         icon: radarr
     - Sonarr:
         href: http://sonarr.localdomain.lan
         description: Sonarr
-        server: my-docker
+        server: my-local-docker
         container: sonarr
         icon: sonarr
     - Tdarr:
         href: http://tdarr.localdomain.lan
         description: Tdarr transcode utility
-        server: my-docker
+        server: my-local-docker
         container: tdarr
         icon: tdarr
         widget:
@@ -122,14 +122,20 @@
       icon: pi-hole
       href: http://pihole.localdomain.lan/admin
       description: Pihole ad blocker
-        #server: my-docker
-        #container: pihole
+      server: my-pihole-docker
+      container: pihole
+      widget:
+        type: pihole
+        url: http://pihole.localdomain.lan
+        version: 5
+        fields: ["queries", "blocked", "blocked_percent", "gravity"]
+        key: {{HOMEPAGE_VAR_PIHOLE_TOKEN}}
 
 
   - UniFi Controller:
       href: https://fileserver.localdomain.lan:8443
       description: UniFi Controller software
-      server: my-docker
+      server: my-local-docker
       container: unifi-network-application
       icon: unifi-controller
   
@@ -137,7 +143,7 @@
       icon: transmission
       href: http://transmission.localdomain.lan
       description: Transmission BitTorrent client
-      server: my-docker
+      server: my-local-docker
       container: transmission
       widget: 
         type: transmission
