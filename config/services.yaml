@@ -68,6 +68,7 @@
       widget:
         type: tautulli
         url: tautulli.localdomain.lan
+        key: {{HOMEPAGE_VAR_TAUTULLI_KEY}}
 
 
 - Multimedia:
