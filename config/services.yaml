@@ -73,6 +73,11 @@
         server: my-docker
         container: calibre-web
         icon: calibre-web
+        widget:
+          type: calibreweb
+          url: http://calibre-web.localdomain.lan
+          username: {{CALIBRE-WEB_USER}}
+          password: {{CALIBRE-WEB_PASS}}
     - Radarr:
         href: http://radarr.localdomain.lan
         description: Radarr

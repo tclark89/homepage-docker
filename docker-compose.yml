@@ -8,6 +8,8 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
         #- ./icons:/app/public/icons
     restart: unless-stopped
+    env_file:
+      - .env
 
 networks:
   default:
