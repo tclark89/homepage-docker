@@ -76,8 +76,8 @@
         widget:
           type: calibreweb
           url: http://calibre-web.localdomain.lan
-          username: {{CALIBRE-WEB_USER}}
-          password: {{CALIBRE-WEB_PASS}}
+          username: {{HOMEPAGE_VAR_CALIBRE-WEB_USER}}
+          password: {{HOMEPAGE_VAR_CALIBRE-WEB_PASS}}
     - Radarr:
         href: http://radarr.localdomain.lan
         description: Radarr
