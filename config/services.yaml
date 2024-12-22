@@ -48,6 +48,13 @@
       server: my-docker
       container: mealie
       icon: mealie
+      widget:
+        type: mealie
+        url: http://mealie.localdomain.lan
+        key: {{HOMEPAGE_VAR_MEALIE_KEY}}
+        version: 2
+
+
   - Tautulli:
       href: http://tautulli.localdomain.lan
       description: Plex stats
