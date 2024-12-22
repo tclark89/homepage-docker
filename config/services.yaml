@@ -15,6 +15,10 @@
       icon: nextcloud
       server: my-docker
       container: nextcloud-app
+      widget:
+        type: nextcloud
+        url: http://nextcloud.localdomain.lan
+        key: {{HOMEPAGE_VAR_NC_TOKEN}}
 
         #- Nginx Proxy Manager:
         #href: http://fileserver.localdomain.lan:81
