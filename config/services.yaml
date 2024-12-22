@@ -48,6 +48,15 @@
       server: my-docker
       container: mealie
       icon: mealie
+  - Tautulli:
+      href: http://tautulli.localdomain.lan
+      description: Plex stats
+      server: my-docker
+      container: tautulli
+      icon: tautulli
+      widget:
+        type: tautulli
+        url: tautulli.localdomain.lan
 
 
 - Multimedia:
