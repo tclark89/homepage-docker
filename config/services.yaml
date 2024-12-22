@@ -143,6 +143,12 @@
       server: my-local-docker
       container: unifi-network-application
       icon: unifi-controller
+      widget:
+        type: unifi
+        url: https://fileserver.localdomain.lan:8443
+        username: {{HOMEPAGE_VAR_UNIFI_USER}}
+        password: {{HOMEPAGE_VAR_UNIFI_PASS}}
+        fields: ["uptime", "wan", "lan_users", "wlan_devices"]
   
   - Transmission:
       icon: transmission
