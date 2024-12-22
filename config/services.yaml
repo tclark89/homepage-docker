@@ -78,6 +78,10 @@
         server: my-local-docker
         container: plex
         icon: plex
+        widget:
+          type: plex
+          url: http://plex.localdomain.lan
+          key: {{HOMEPAGE_VAR_PLEX_KEY}}
 
     - Calibre Web:
         href: http://calibre-web.localdomain.lan
