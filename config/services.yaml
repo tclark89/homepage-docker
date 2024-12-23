@@ -70,6 +70,7 @@
         url: http://tautulli.localdomain.lan
         key: {{HOMEPAGE_VAR_TAUTULLI_KEY}}
         enableUser: true
+        showEpisodeNumber: true
         expandOneStreamToTwoRows: false
 
 
