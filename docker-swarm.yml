@@ -1,0 +1,17 @@
+services:
+  app:
+    image: ghcr.io/gethomepage/homepage:latest
+      #image: ghcr.io/benphelps/homepage:latest
+    volumes:
+      - ./config:/app/config 
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./icons:/app/public/icons
+    env_file:
+      - .env
+
+
+networks:
+  default:
+    attachable: true
+    driver: overlay
+    name: homepage
