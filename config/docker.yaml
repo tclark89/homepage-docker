@@ -13,3 +13,13 @@
  my-pihole-docker:
    host: pihole.localdomain.lan
    port: 2375
+
+ my-plex-docker:
+   host: plex.localdomain.lan
+   port: 2375
+   swarm: true
+ 
+ my-nextcloud-docker:
+   host: nextcloud.localdomain.lan
+   port: 2375
+   swarm: true

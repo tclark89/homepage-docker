@@ -13,7 +13,7 @@
       href: http://nextcloud.localdomain.lan
       description: Nextcloud
       icon: nextcloud
-      server: my-local-docker
+      server: my-nextcloud-docker
       container: nextcloud-app
       widget:
         type: nextcloud
@@ -41,7 +41,7 @@
         icon: calibre
   
   - Portainer:
-        href: https://fileserver.localdomain.lan:9443
+        href: http://portainer.localdomain.lan
         description: Portainer CE
         server: my-local-docker
         container: portainer
@@ -50,7 +50,7 @@
       href: http://mealie.localdomain.lan
       description: Database of recipes
       server: my-local-docker
-      container: mealie
+      container: mealie_mealie
       icon: mealie
       widget:
         type: mealie
@@ -59,32 +59,40 @@
         version: 2
 
 
-  - Tautulli:
-      href: http://tautulli.localdomain.lan
-      description: Plex stats
-      server: my-local-docker
-      container: tautulli
-      icon: tautulli
-      widget:
-        type: tautulli
-        url: http://tautulli.localdomain.lan
-        key: {{HOMEPAGE_VAR_TAUTULLI_KEY}}
-        enableUser: true
-        showEpisodeNumber: true
-        expandOneStreamToTwoRows: false
 
 
 - Multimedia:
     - Plex Media Server:
-        href: http://plex.localdomain.lan
+        href: http://plex.localdomain.lan:32400
         description: Plex Media Server
-        server: my-local-docker
+        server: my-plex-docker
         container: plex
         icon: plex
         widget:
           type: plex
           url: http://plex.localdomain.lan
           key: {{HOMEPAGE_VAR_PLEX_KEY}}
+  
+    - Tautulli:
+        href: http://tautulli.localdomain.lan
+        description: Plex stats
+        server: my-local-docker
+        container: tautulli_app
+        icon: tautulli
+        widget:
+          type: tautulli
+          url: http://tautulli.localdomain.lan
+          key: {{HOMEPAGE_VAR_TAUTULLI_KEY}}
+          enableUser: true
+          showEpisodeNumber: true
+          expandOneStreamToTwoRows: false
+
+    - Pasta:
+        href: http://pasta.localdomain.lan
+        description: Pasta
+        server: my-local-docker
+        container: pasta_app
+        icon: /icons/pasta.png
 
     - Calibre Web:
         href: http://calibre-web.localdomain.lan
