@@ -70,7 +70,7 @@
         icon: plex
         widget:
           type: plex
-          url: http://plex.localdomain.lan
+          url: http://plex.localdomain.lan:32400
           key: {{HOMEPAGE_VAR_PLEX_KEY}}
   
     - Tautulli:
@@ -93,6 +93,22 @@
         server: my-local-docker
         container: pasta_app
         icon: /icons/pasta.png
+
+    - Jellyfin:
+        href: http://plex.localdomain.lan:8096
+        description: Jellfin Media Server
+        server: my-plex-docker
+        container: jellyfin_app
+        icon: jellyfin
+        widget:
+          type: jellyfin
+          url: http://plex.localdomain.lan:8096
+          key: {{HOMEPAGE_VAR_JELLYFIN_KEY}}
+          enableBlocks: true # optional, defaults to false
+          enableNowPlaying: true # optional, defaults to true
+          enableUser: true # optional, defaults to false
+          showEpisodeNumber: true # optional, defaults to false
+          expandOneStreamToTwoRows: false # optional, defaults to true
 
     - Calibre Web:
         href: http://calibre-web.localdomain.lan
