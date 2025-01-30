@@ -130,8 +130,8 @@
     - Sonarr:
         href: http://sonarr.localdomain.lan
         description: Sonarr
-        server: my-local-docker
-        container: sonarr
+        server: my-fileserver-docker
+        container: sonarr_app
         icon: sonarr
     - Tdarr:
         href: http://tdarr.localdomain.lan
