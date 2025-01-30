@@ -14,7 +14,7 @@
       description: Nextcloud
       icon: nextcloud
       server: my-nextcloud-docker
-      container: nextcloud-app
+      container: nextcloud_app
       widget:
         type: nextcloud
         url: http://nextcloud.localdomain.lan
@@ -50,7 +50,7 @@
       href: http://mealie.localdomain.lan
       description: Database of recipes
       server: my-local-docker
-      container: mealie_mealie
+      container: mealie_app
       icon: mealie
       widget:
         type: mealie
@@ -180,8 +180,8 @@
       icon: transmission
       href: http://transmission.localdomain.lan
       description: Transmission BitTorrent client
-      server: my-local-docker
-      container: transmission
+      server: my-fileserver-docker
+      container: transmission_app
       widget: 
         type: transmission
         url: http://transmission.localdomain.lan
