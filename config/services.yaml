@@ -165,14 +165,14 @@
 
 
   - UniFi Controller:
-      href: https://fileserver.localdomain.lan:8443
+      href: https://unifi.localdomain.lan:8443
       description: UniFi Controller software
-      server: my-local-docker
+      server: my-unifi-docker
       container: unifi-network-application
       icon: unifi-controller
       widget:
         type: unifi
-        url: https://fileserver.localdomain.lan:8443
+        url: https://unifi.localdomain.lan:8443
         username: {{HOMEPAGE_VAR_UNIFI_USER}}
         password: {{HOMEPAGE_VAR_UNIFI_PASS}}
   

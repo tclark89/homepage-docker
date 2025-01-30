@@ -28,3 +28,8 @@
    host: fileserver.localdomain.lan
    port: 2375
    swarm: true
+ 
+ my-unifi-docker:
+   host: unifi.localdomain.lan
+   port: 2375
+   swarm: true
