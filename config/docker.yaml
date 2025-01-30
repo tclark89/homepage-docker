@@ -23,3 +23,8 @@
    host: nextcloud.localdomain.lan
    port: 2375
    swarm: true
+
+ my-fileserver-docker:
+   host: fileserver.localdomain.lan
+   port: 2375
+   swarm: true
