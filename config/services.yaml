@@ -10,7 +10,7 @@
   #      icon: rstudioserver
   
   - Nextcloud:
-      href: http://nextcloud.localdomain.lan
+      href: http://nextcloud.tyler-clark.com
       description: Nextcloud
       icon: nextcloud
       server: my-nextcloud-docker
