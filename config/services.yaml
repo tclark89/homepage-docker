@@ -66,7 +66,7 @@
         href: http://plex.localdomain.lan:32400
         description: Plex Media Server
         server: my-plex-docker
-        container: plex
+        container: plex_app
         icon: plex
         widget:
           type: plex
