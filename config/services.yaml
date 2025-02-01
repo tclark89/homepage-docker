@@ -54,7 +54,7 @@
       icon: mealie
       widget:
         type: mealie
-        url: http://mealie.tyler-clark.com
+        url: https://mealie.tyler-clark.com
         key: {{HOMEPAGE_VAR_MEALIE_KEY}}
         version: 2
 
@@ -81,7 +81,7 @@
         icon: tautulli
         widget:
           type: tautulli
-          url: http://tautulli.tyler-clark.com
+          url: https://tautulli.tyler-clark.com
           key: {{HOMEPAGE_VAR_TAUTULLI_KEY}}
           enableUser: true
           showEpisodeNumber: true
