@@ -122,13 +122,13 @@
           username: {{HOMEPAGE_VAR_CALIBRE-WEB_USER}}
           password: {{HOMEPAGE_VAR_CALIBRE-WEB_PASS}}
     - Radarr:
-        href: http://radarr.localdomain.lan
+        href: http://radarr.tyler-clark.com
         description: Radarr
-        server: my-local-docker
+        server: my-fileserver-docker
         container: radarr
         icon: radarr
     - Sonarr:
-        href: http://sonarr.localdomain.lan
+        href: http://sonarr.tyler-clark.com
         description: Sonarr
         server: my-fileserver-docker
         container: sonarr_app
