@@ -47,14 +47,14 @@
         container: portainer
         icon: portainer
   - Mealie:
-      href: http://mealie.tyler-clark.com
+      href: https://mealie.tyler-clark.com
       description: Database of recipes
       server: my-local-docker
       container: mealie_app
       icon: mealie
       widget:
         type: mealie
-        url: http://mealie.tyler-clark.com
+        url: https://mealie.tyler-clark.com
         key: {{HOMEPAGE_VAR_MEALIE_KEY}}
         version: 2
 
