@@ -37,7 +37,7 @@
         href: http://calibre.tyler-clark.com
         description: Calibre eBook library management
         server: my-fileserver-docker
-        container: calibre
+        container: calibre_app
         icon: calibre
   
   - Portainer:
