@@ -125,7 +125,7 @@
         href: http://radarr.tyler-clark.com
         description: Radarr
         server: my-fileserver-docker
-        container: radarr
+        container: radarr_app
         icon: radarr
     - Sonarr:
         href: http://sonarr.tyler-clark.com
