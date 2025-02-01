@@ -11,25 +11,25 @@
    swarm: true
 
  my-pihole-docker:
-   host: pihole.localdomain.lan
+   host: pihole.tyler-clark.com
    port: 2375
 
  my-plex-docker:
-   host: plex.localdomain.lan
+   host: plex.tyler-clark.com
    port: 2375
    swarm: true
  
  my-nextcloud-docker:
-   host: nextcloud.localdomain.lan
+   host: nextcloud.tyler-clark.com
    port: 2375
    swarm: true
 
  my-fileserver-docker:
-   host: fileserver.localdomain.lan
+   host: fileserver.tyler-clark.com
    port: 2375
    swarm: true
  
  my-unifi-docker:
-   host: unifi.localdomain.lan
+   host: unifi.tyler-clark.com
    port: 2375
    swarm: true
