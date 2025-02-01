@@ -133,15 +133,6 @@
         server: my-fileserver-docker
         container: sonarr_app
         icon: sonarr
-    - Tdarr:
-        href: http://tdarr.tyler-clark.com
-        description: Tdarr transcode utility
-        server: my-local-docker
-        container: tdarr
-        icon: tdarr
-        widget:
-          type: tdarr
-          url: http://tdarr.tyler-clark.com
 
 
 - Network:
