@@ -88,7 +88,7 @@
           expandOneStreamToTwoRows: false
 
     - Pasta:
-        href: http://pasta.tyler-clark.com
+        href: https://pasta.tyler-clark.com
         description: Pasta
         server: my-local-docker
         container: pasta_app
