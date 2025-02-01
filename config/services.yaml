@@ -36,7 +36,7 @@
   - Calibre:
         href: http://calibre.tyler-clark.com
         description: Calibre eBook library management
-        server: my-local-docker
+        server: my-fileserver-docker
         container: calibre
         icon: calibre
   
@@ -113,8 +113,8 @@
     - Calibre Web:
         href: https://calibre-web.tyler-clark.com
         description: Calibre-web library browser
-        server: my-local-docker
-        container: calibre-web
+        server: my-fileserver-docker
+        container: calibre-web_app
         icon: calibre-web
         widget:
           type: calibreweb
