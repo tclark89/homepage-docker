@@ -7,7 +7,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - ./icons:/app/public/icons
     env_file:
-      - .env
+      - homepage.env
 
 
 networks:
