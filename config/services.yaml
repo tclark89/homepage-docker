@@ -95,14 +95,14 @@
         icon: /icons/pasta.png
 
     - Jellyfin:
-        href: http://plex.tyler-clark.com:8096
-        description: Jellfin Media Server
+        href: https://jellyfin.tyler-clark.com
+        description: Jellyfin Media Server
         server: my-plex-docker
         container: jellyfin_app
         icon: jellyfin
         widget:
           type: jellyfin
-          url: http://plex.tyler-clark.com:8096
+          url: https://jellyfin.tyler-clark.com
           key: {{HOMEPAGE_VAR_JELLYFIN_KEY}}
           enableBlocks: true # optional, defaults to false
           enableNowPlaying: true # optional, defaults to true
