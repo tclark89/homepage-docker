@@ -10,14 +10,14 @@
   #      icon: rstudioserver
   
   - Nextcloud:
-      href: http://nextcloud.tyler-clark.com
+      href: https://nextcloud.tyler-clark.com
       description: Nextcloud
       icon: nextcloud
-      server: my-nextcloud-docker
+      server: my-local-docker
       container: nextcloud_app
       widget:
         type: nextcloud
-        url: http://nextcloud.tyler-clark.com
+        url: https://nextcloud.tyler-clark.com
         key: {{HOMEPAGE_VAR_NC_TOKEN}}
 
         #- Nginx Proxy Manager:
