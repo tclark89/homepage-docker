@@ -14,10 +14,10 @@
       description: Nextcloud
       icon: nextcloud
       server: my-local-docker
-      container: nextcloud_app
+      container: nextcloud-aio-mastercontainer
       widget:
         type: nextcloud
-        url: https://nextcloud.tyler-clark.com
+        url: https://nextcloud.tyler-clark.com/
         key: {{HOMEPAGE_VAR_NC_TOKEN}}
 
         #- Nginx Proxy Manager:
