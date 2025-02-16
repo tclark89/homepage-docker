@@ -14,18 +14,11 @@
       description: Nextcloud
       icon: nextcloud
       server: my-local-docker
-      container: nextcloud-aio-mastercontainer
+      container: nextcloud-aio-nextcloud
       widget:
         type: nextcloud
         url: https://nextcloud.tyler-clark.com/
         key: {{HOMEPAGE_VAR_NC_TOKEN}}
-
-        #- Nginx Proxy Manager:
-        #href: http://fileserver.tyler-clark.com:81
-        #description: Nginx Proxy Manager admin page
-        #icon: nginx-proxy-manager
-        #server: my-local-docker
-        #container: nginx-proxy-manager
 
   - Nginx:
       description: Nginx 
