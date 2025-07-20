@@ -59,7 +59,7 @@
         href: http://plex.tyler-clark.com:32400
         description: Plex Media Server
         server: my-plex-docker
-        container: plex_app
+        container: plex
         icon: plex
         widget:
           type: plex
@@ -69,8 +69,8 @@
     - Tautulli:
         href: http://tautulli.tyler-clark.com
         description: Plex stats
-        server: my-local-docker
-        container: tautulli_app
+        server: my-plex-docker
+        container: tautulli
         icon: tautulli
         widget:
           type: tautulli
@@ -83,8 +83,8 @@
     - Pasta:
         href: https://pasta.tyler-clark.com
         description: Pasta
-        server: my-local-docker
-        container: pasta_app
+        server: my-plex-docker
+        container: pasta
         icon: /icons/pasta.png
 
 
