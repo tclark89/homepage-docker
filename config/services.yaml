@@ -27,10 +27,10 @@
       container: nginx
   
   - Calibre:
-        href: http://calibre.tyler-clark.com
+        href: https://calibre.tyler-clark.com
         description: Calibre eBook library management
-        server: my-fileserver-docker
-        container: calibre_app
+        server: my-local-docker
+        container: calibre
         icon: calibre
   
   - Portainer:
@@ -43,20 +43,31 @@
       href: https://mealie.tyler-clark.com
       description: Database of recipes
       server: my-local-docker
-      container: mealie_app
+      container: mealie
       icon: mealie
       widget:
         type: mealie
         url: https://mealie.tyler-clark.com
         key: {{HOMEPAGE_VAR_MEALIE_KEY}}
         version: 2
+  - Watchtower:
+      href: http://watchtower.tyler-clark.com
+      description: Watchtower
+      server: my-local-docker
+      container: watchtower
+      icon: watchtower
+      widget:
+        type: watchtower
+        fields: ["containers_scanned", "containers_updated", "containers_failed"]
+        url: https://watchtower.tyler-clark.com
+        key: mytoken
 
 
 
 
 - Multimedia:
     - Plex Media Server:
-        href: http://plex.tyler-clark.com:32400
+        href: http://plex.tyler-clark.com
         description: Plex Media Server
         server: my-plex-docker
         container: plex
@@ -91,8 +102,8 @@
     - Calibre Web:
         href: https://calibre-web.tyler-clark.com
         description: Calibre-web library browser
-        server: my-fileserver-docker
-        container: calibre-web_app
+        server: my-local-docker
+        container: calibre-web
         icon: calibre-web
         widget:
           type: calibreweb
@@ -102,14 +113,14 @@
     - Radarr:
         href: http://radarr.tyler-clark.com
         description: Radarr
-        server: my-fileserver-docker
-        container: radarr_app
+        server: my-local-docker
+        container: radarr
         icon: radarr
     - Sonarr:
         href: http://sonarr.tyler-clark.com
         description: Sonarr
-        server: my-fileserver-docker
-        container: sonarr_app
+        server: my-local-docker
+        container: sonarr
         icon: sonarr
 
 
@@ -134,23 +145,24 @@
 
 
   - UniFi Controller:
-      href: https://unifi.tyler-clark.com:8443
+      href: https://unifi.tyler-clark.com
       description: UniFi Controller software
-      server: my-unifi-docker
+      server: my-local-docker
       container: unifi-network-application
       icon: unifi-controller
       widget:
         type: unifi
         url: https://unifi.tyler-clark.com:8443
-        username: {{HOMEPAGE_VAR_UNIFI_USER}}
-        password: {{HOMEPAGE_VAR_UNIFI_PASS}}
+        key: {{HOMEPAGE_VAR_UNIFI_KEY}}
+          #username: {{HOMEPAGE_VAR_UNIFI_USER}}
+          #password: {{HOMEPAGE_VAR_UNIFI_PASS}}
   
   - Transmission:
       icon: transmission
       href: http://transmission.tyler-clark.com
       description: Transmission BitTorrent client
-      server: my-fileserver-docker
-      container: transmission_app
+      server: my-local-docker
+      container: transmission
       widget: 
         type: transmission
         url: http://fileserver.tyler-clark.com:9091

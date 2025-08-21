@@ -11,7 +11,7 @@
    swarm: true
 
  my-pihole-docker:
-   host: pihole.tyler-clark.com
+   host: raspberrypi.tyler-clark.com
    port: 2375
 
  my-plex-docker:
@@ -29,6 +29,3 @@
    port: 2375
    swarm: true
  
- my-unifi-docker:
-   host: unifi.tyler-clark.com
-   port: 2375
