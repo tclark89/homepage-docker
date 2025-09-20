@@ -15,7 +15,7 @@
    port: 2375
 
  my-plex-docker:
-   host: plex.tyler-clark.com
+   host: thinkcentre01.tyler-clark.com
    port: 2375
    swarm: true
  

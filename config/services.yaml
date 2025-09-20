@@ -74,7 +74,7 @@
         icon: plex
         widget:
           type: plex
-          url: http://plex.tyler-clark.com:32400
+          url: http://thinkcentre01.tyler-clark.com:32400
           key: {{HOMEPAGE_VAR_PLEX_KEY}}
   
     - Tautulli:
