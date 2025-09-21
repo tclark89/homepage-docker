@@ -26,6 +26,20 @@
       server: my-local-docker
       container: nginx
   
+  - Homepage:
+      href: https://homepage.tyler-clark.com
+      description: Homepage Dashboard
+      icon: homepage
+      server: my-local-docker
+      container: homepage
+  
+  - Traefik:
+      href: https://dockerapps.tyler-clark.com:8080
+      description: Traefik 
+      icon: traefik
+      server: my-local-docker
+      container: traefik
+  
   - Calibre:
         href: https://calibre.tyler-clark.com
         description: Calibre eBook library management

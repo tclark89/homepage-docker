@@ -8,15 +8,22 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - ./icons:/app/public/icons
     environment:
-      HOMEPAGE_ALLOWED_HOSTS: homepage:3000
+      HOMEPAGE_ALLOWED_HOSTS: homepage.tyler-clark.com
+    labels:
+
+      - traefik.enable=true
+      
+      - traefik.http.routers.homepage-https.rule=Host(`homepage.tyler-clark.com`)
+      - traefik.http.routers.homepage-https.tls=true
+      #- traefik.http.routers.homepage-https.entrypoints=websecure
+      - traefik.http.routers.homepage-https.tls.certresolver=cloudflare
+
+     # - traefik.http.services.homepage-https.loadbalancer.server.port=3000
+
     env_file:
       - homepage.env
-
 
 networks:
   default:
     external: true
     name: frontend
-  #default:
-    #attachable: true
-    #name: homepage
