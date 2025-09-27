@@ -65,7 +65,6 @@
         key: {{HOMEPAGE_VAR_MEALIE_KEY}}
         version: 2
   - Watchtower:
-      href: http://watchtower.tyler-clark.com
       description: Watchtower
       server: my-local-docker
       container: watchtower
@@ -159,9 +158,9 @@
 
 
   - UniFi Controller:
-      href: https://unifi.tyler-clark.com
+      href: https://unifi.tyler-clark.com:8443
       description: UniFi Controller software
-      server: my-local-docker
+      server: my-unifi-docker
       container: unifi-network-application
       icon: unifi-controller
       widget:

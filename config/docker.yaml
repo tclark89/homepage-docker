@@ -14,6 +14,10 @@
    host: raspberrypi.tyler-clark.com
    port: 2375
 
+ my-unifi-docker:
+   host: unifi.tyler-clark.com
+   port: 2375
+ 
  my-plex-docker:
    host: thinkcentre01.tyler-clark.com
    port: 2375
