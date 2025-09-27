@@ -29,7 +29,7 @@
       container: homepage
   
   - Traefik:
-      href: https://dockerapps.tyler-clark.com:8080
+      href: https://traefik.tyler-clark.com/dashboard/
       description: Traefik 
       icon: traefik
       server: my-local-docker
@@ -164,12 +164,12 @@
   
   - Transmission:
       icon: transmission
-      href: http://transmission.tyler-clark.com
+      href: https://transmission.tyler-clark.com
       description: Transmission BitTorrent client
       server: my-local-docker
       container: transmission
       widget: 
         type: transmission
-        url: http://fileserver.tyler-clark.com:9091
+        url: https://transmission.tyler-clark.com
         fields: ["leech", "download", "seed", "upload"]  
 
