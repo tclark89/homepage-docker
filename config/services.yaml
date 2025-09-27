@@ -20,11 +20,6 @@
         url: https://nextcloud.tyler-clark.com/
         key: {{HOMEPAGE_VAR_NC_TOKEN}}
 
-  - Nginx:
-      description: Nginx 
-      icon: nginx
-      server: my-local-docker
-      container: nginx
   
   - Homepage:
       href: https://homepage.tyler-clark.com
@@ -47,12 +42,6 @@
         container: calibre
         icon: calibre
   
-  - Portainer:
-        href: http://portainer.tyler-clark.com
-        description: Portainer CE
-        server: my-local-docker
-        container: portainer
-        icon: portainer
   - Mealie:
       href: https://mealie.tyler-clark.com
       description: Database of recipes
