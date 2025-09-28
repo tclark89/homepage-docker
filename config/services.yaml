@@ -2,6 +2,26 @@
 # For configuration options and examples, please see:
 # https://github.com/benphelps/homepage/wiki/Services
 
+- Stats:
+  - fileserver:
+      widget:
+        type: glances
+        version: 4
+        url: http://glances-fileserver:61208
+        metric: info
+  - thinkcentre01(Plex):
+      widget:
+        type: glances
+        version: 4
+        url: http://thinkcentre01.tyler-clark.com:61208
+        metric: info
+  - Raspberry Pi 3B+:
+      widget:
+        type: glances
+        version: 4
+        url: http://raspberrypi.tyler-clark.com:61208
+        metric: info
+
 - Tools:
 
   #- Rstudio Server:

@@ -12,12 +12,13 @@
     target: _blank
 
 - glances:
-    url: https://glances.tyler-clark.com
+    url: http://glances-fileserver:61208
     version: 4
     cpu: true 
     mem: true
     cputemp: true
     uptime: true
+    network: br0
     disk: 
       - /mnt/root
       - /mnt/disks/SG_BARR_8TB_01
