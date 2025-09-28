@@ -34,6 +34,12 @@
       icon: traefik
       server: my-local-docker
       container: traefik
+      widget: 
+        type: traefik
+        url: http://traefik:8080
+        username: {{HOMEPAGE_TRAEFIK_USER}}
+        password: {{HOMEPAGE_TRAEFIK_PASS}}
+
   
   - Calibre:
         href: https://calibre.tyler-clark.com

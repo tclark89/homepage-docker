@@ -2,11 +2,28 @@
 # For configuration options and examples, please see:
 # https://github.com/benphelps/homepage/wiki/Information-Widgets
 
-- resources:
-    cpu: true
-    memory: true
-    disk: /
+#- resources:
+#    cpu: true
+#    memory: true
+#    disk: /
 
 - search:
     provider: duckduckgo
     target: _blank
+
+- glances:
+    url: https://glances.tyler-clark.com
+    version: 4
+    cpu: true 
+    mem: true
+    cputemp: true
+    uptime: true
+    disk: 
+      - /mnt/root
+      - /mnt/disks/SG_BARR_8TB_01
+      - /mnt/disks/SG_BARR_8TB_02
+      - /mnt/disks/SG_BARR_8TB_03
+      - /mnt/disks/WD_RED_8TB_01
+    diskUnits: bytes 
+    expanded: true
+    label: fileserver
