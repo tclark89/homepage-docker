@@ -4,12 +4,14 @@
 
 - Stats:
   - fileserver:
+      href: https://fileserver.tyler-clark.com:9090
       widget:
         type: glances
         version: 4
         url: http://glances-fileserver:61208
         metric: info
   - thinkcentre01(Plex):
+      href: http://thinkcentre01.tyler-clark.com:9090
       widget:
         type: glances
         version: 4
