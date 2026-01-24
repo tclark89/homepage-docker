@@ -25,12 +25,6 @@
         metric: info
 
 - Tools:
-
-  #- Rstudio Server:
-  #      href: http://rstudio.tyler-clark.com
-  #      description: Rstudio Server in nspawn container
-  #      icon: rstudioserver
-  
   - Nextcloud:
       href: https://nextcloud.tyler-clark.com
       description: Nextcloud
@@ -200,4 +194,10 @@
         type: transmission
         url: https://transmission.tyler-clark.com
         fields: ["leech", "download", "seed", "upload"]  
-
+  - Resilio:
+      icon: resiliosync
+      href: https://resilio.tyler-clark.com
+      description: Resilio Sync
+      server: my-local-docker
+      container: resilio-sync
+      
