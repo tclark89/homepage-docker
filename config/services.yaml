@@ -10,6 +10,12 @@
         version: 4
         url: http://glances-fileserver:61208
         metric: info
+  - Scrutiny:
+      href: https://scrutiny.tyler-clark.com
+      widget:
+        type: scrutiny
+        url: https://scrutiny.tyler-clark.com
+
   - thinkcentre01(Plex):
       href: http://thinkcentre01.tyler-clark.com:9090
       widget:
