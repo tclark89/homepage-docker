@@ -16,8 +16,8 @@
         type: scrutiny
         url: https://scrutiny.tyler-clark.com
 
-  - thinkcentre01(Plex):
-      href: http://thinkcentre01.tyler-clark.com:9090
+  - thinkcentre01(HTPC):
+      #href: http://thinkcentre01.tyler-clark.com:9090
       widget:
         type: glances
         version: 4
@@ -81,6 +81,7 @@
         url: https://mealie.tyler-clark.com
         key: {{HOMEPAGE_VAR_MEALIE_KEY}}
         version: 2
+
   - Watchtower:
       description: Watchtower
       server: my-local-docker
@@ -93,31 +94,29 @@
         key: mytoken
 
 
-
-
 - Multimedia:
     - Plex Media Server:
-        href: http://plex.tyler-clark.com
+        href: http://plex.tyler-clark.com:32400/web/index.html
         description: Plex Media Server
-        server: my-plex-docker
+        server: my-local-docker
         container: plex
         icon: plex
         widget:
           type: plex
-          url: http://thinkcentre01.tyler-clark.com:32400
+          url: http://plex.tyler-clark.com:32400
           key: {{HOMEPAGE_VAR_PLEX_KEY}}
   
     - Tautulli:
         #href: https://tautulli.tyler-clark.com
-        href: http://thinkcentre01.tyler-clark.com:8181
+        href: http://plex.tyler-clark.com:8181
         description: Plex stats
-        server: my-plex-docker
+        server: my-local-docker
         container: tautulli
         icon: tautulli
         widget:
           type: tautulli
           #url: https://tautulli.tyler-clark.com
-          url: http://thinkcentre01.tyler-clark.com:8181
+          url: http://plex.tyler-clark.com:8181
           key: {{HOMEPAGE_VAR_TAUTULLI_KEY}}
           enableUser: true
           showEpisodeNumber: true
@@ -125,9 +124,9 @@
 
     - Pasta:
         #href: https://pasta.tyler-clark.com
-        href: http://thinkcentre01.tyler-clark.com:8087
+        href: http://plex.tyler-clark.com:8087
         description: Pasta
-        server: my-plex-docker
+        server: my-local-docker
         container: pasta
         icon: /icons/pasta.png
 
