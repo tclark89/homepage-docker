@@ -130,9 +130,14 @@
         container: pasta
         icon: /icons/pasta.png
 
+    - Plexamp:
+        href: http://thinkcentre01.tyler-clark.com:32500
+        description: Plexamp web interface
+        icon: sh-plexamp.webp
+
     - Kodi:
         href: http://thinkcentre01.tyler-clark.com:8080
-        description: Kodi Media Center
+        description: Kodi Media Center web interface
         icon: kodi
 
     - Calibre Web:
