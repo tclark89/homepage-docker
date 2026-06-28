@@ -130,6 +130,10 @@
         container: pasta
         icon: /icons/pasta.png
 
+    - Kodi:
+        href: http://thinkcentre01.tyler-clark.com:8080
+        description: Kodi Media Center
+        icon: kodi
 
     - Calibre Web:
         href: https://calibre-web.tyler-clark.com
