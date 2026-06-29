@@ -108,7 +108,6 @@
   
     - Tautulli:
         href: https://tautulli.tyler-clark.com
-        #href: http://plex.tyler-clark.com:8181
         description: Plex stats
         server: my-local-docker
         container: tautulli
@@ -116,7 +115,6 @@
         widget:
           type: tautulli
           url: https://tautulli.tyler-clark.com
-          #url: http://plex.tyler-clark.com:8181
           key: {{HOMEPAGE_VAR_TAUTULLI_KEY}}
           enableUser: true
           showEpisodeNumber: true
@@ -124,7 +122,6 @@
 
     - Pasta:
         href: https://pasta.tyler-clark.com
-        #href: http://p.tyler-clark.com:8087
         description: Pasta
         server: my-local-docker
         container: pasta
