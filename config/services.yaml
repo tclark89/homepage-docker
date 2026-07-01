@@ -18,12 +18,14 @@
 
   - thinkcentre01(HTPC):
       #href: http://thinkcentre01.tyler-clark.com:9090
+      href: http://thinkcentre01.tyler-clark.com:61208
       widget:
         type: glances
         version: 4
         url: http://thinkcentre01.tyler-clark.com:61208
         metric: info
   - Raspberry Pi 3B+:
+      href: http://raspberrypi.tyler-clark.com:61208
       widget:
         type: glances
         version: 4
@@ -137,9 +139,9 @@
         description: Kodi Media Center web interface
         icon: kodi
 
-    - Calibre Web:
+    - Calibre-Web:
         href: https://calibre-web.tyler-clark.com
-        description: Calibre-web library browser
+        description: Calibre-Web library browser
         server: my-local-docker
         container: calibre-web
         icon: calibre-web
@@ -174,10 +176,10 @@
       href: https://192.168.0.1
       description: Ubiquiti EdgeRouter Login
 
-  - Pihole:
+  - Pi-Hole:
       icon: pi-hole
       href: http://pihole.tyler-clark.com/admin
-      description: Pihole ad blocker
+      description: Pi-Hole ad blocker
       server: my-pihole-docker
       container: pihole
       widget:
@@ -217,4 +219,3 @@
       description: Resilio Sync
       server: my-local-docker
       container: resilio-sync
-      
