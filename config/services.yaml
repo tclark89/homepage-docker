@@ -160,6 +160,12 @@
         server: my-local-docker
         container: sonarr
         icon: sonarr
+    - Pinepods:
+        href: https://pinepods.tyler-clark.com
+        description: Pinepods
+        server: my-local-docker
+        container: pinepods
+        icon: pinepods
 
 
 - Network:
